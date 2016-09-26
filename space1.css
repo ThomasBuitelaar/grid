@@ -8,7 +8,9 @@ body {
 	background-color: rgba(0,128,0,0.4);
 	
 	/* put css-rules in this ccs-block here below */
-	
+	padding: 10px;
+	margin:90px;
+	margin-top: 0px;
 }
 
 h1{
@@ -16,14 +18,16 @@ h1{
 	line-height: 40px;
 	
 	/* put css-rules in this ccs-block here below */
-	
+	padding: 10px;
+	margin-bottom: 30px;
 }
 
 h2 {
 	line-height: 30px;
 	
 	/* put css-rules in this ccs-block here below */
-	
+
+	margin-color: rgb(148,0,211);
 }
 
 p{
@@ -31,5 +35,6 @@ p{
 	line-height: 20px;
 	
 	/* put css-rules in this ccs-block here below */
-
+	margin: 10px;
+	padding: 10px;
 }
