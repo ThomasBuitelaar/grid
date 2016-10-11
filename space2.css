@@ -1,47 +1,96 @@
 		body {
 			background-image: url(bg.png);
 			font-family: Tahoma;
+			
+			height: 606px
+			  
+
 		}
 		
 		#frame {
 			background-color: rgba(255,200,200,0.3);
+			max-width: 1000px;
+			margin: 0 auto;
+			padding-bottom:10px;
+			padding-top: 12px
+
 			
 		}
 		
 		header nav ul {
 			list-style-type: none;
 			background-color: rgba(255,255,200,0.3);
+			font-weight: bold;
+			text-align: left;
+			margin-left: 5px;
+
+			padding-left: 10px;
+			padding: 10px;
+			margin-right: 10px;
+
 		}
 		
 		#content {
-			
+			margin: 10px;
+			margin-bottom: 0px;
+			display: flex;
+			flex-direction: row;
+			margin-left: 10px;
+			margin-right: 10px;
 		}
 		
 		nav li {
+			display: inline;
+			padding-right: 10px;
 			
+			
+
 		}
 		
 		nav li a {
+			text-decoration: none;
+			color: black;
+
 		}
 		
 		main{
 			border: 1px black solid;
 			background-color: rgba(200,200,255,0.3);
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 115px;
+			width: 660px;
+
+
 		}
 		
 		aside{
 			border: 1px black solid;
 			background-color: rgba(200,255,200,0.3);
+			padding-top: 10px;
+			width: 275px;
+			padding: 10px;
+			padding-right: 10px;
+
 		}
 		
 		body article {
 			background-color: rgba(200,200,200,0.6);
+
 		}
 		
 		header {
+			text-align: center;
+
 		}
 		
 		footer {
 			background-color: rgba(255,255,200,0.3);
+			text-align: center;
+			font-weight: bold;
+			margin-right: 10px;
+			margin-left: 10px;
+
 		}
 	
