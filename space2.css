@@ -2,7 +2,7 @@
 			background-image: url(bg.png);
 			font-family: sans-serif;
 			
-			height: 616px
+			
 			  
 
 		}
@@ -12,7 +12,8 @@
 			max-width: 1010px;
 			margin: 0 auto;
 			padding-bottom:10px;
-			padding-top: 12px
+			padding-top: 12px;
+			height: 616px;
 
 			
 			
